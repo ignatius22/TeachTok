@@ -19,6 +19,7 @@ const useMCQData = () => {
   const [answersState, setAnswersState] = useState<Record<number, AnswerState>>(
     {}
   );
+  
 
   const fetchMCQs = useCallback(async () => {
     if (loading || !hasMore) return;

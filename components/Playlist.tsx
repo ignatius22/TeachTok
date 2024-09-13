@@ -37,6 +37,7 @@ const styles = StyleSheet.create({
     fontSize: rem(13),
     lineHeight: rem(15.51),
     color: "#ffffff",
+    alignItems:"center"
   },
 
   playlistItem: {

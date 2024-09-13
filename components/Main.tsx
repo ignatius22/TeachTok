@@ -52,7 +52,7 @@ const Main = () => {
         onScroll={onScroll} // Use the updated onScroll handler
         pagingEnabled // Enables paging behavior
         contentContainerStyle={styles.listContentContainer}
-        scrollEventThrottle={16}
+        scrollEventThrottle={32}
         onEndReachedThreshold={0.5} // Trigger new page load earlier
       />
     </View>
