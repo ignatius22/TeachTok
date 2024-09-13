@@ -121,11 +121,19 @@ const styles = StyleSheet.create({
     color: "#FFFFFF",
     lineHeight: rem(26),
     fontFamily: "SFProRoundedRegular",
-    paddingTop: rem(40),
-    width: RPW(60),
-
-    marginTop: rem(14),
+    marginTop: rem(40),
+    paddingHorizontal: rem(10), // Add padding to make the background fit the text
+    paddingVertical: rem(6),
+    backgroundColor: "rgba(0, 0, 0, 0.5)", // Slightly transparent black
+    // iOS shadow properties
+    shadowColor: "rgba(0, 0, 0, 0.1)",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.5,
+    shadowRadius: 4,
+    // Android elevation
+    elevation: 1,
   },
+
   optionsBox: {
     flexDirection: "column",
     height: RPH(28),
